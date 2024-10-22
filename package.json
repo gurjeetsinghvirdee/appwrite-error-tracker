@@ -1,0 +1,22 @@
+{
+  "name": "appwrite-error-tracking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@sentry/node": "^8.35.0",
+    "@sentry/tracing": "^7.114.0",
+    "appwrite": "^16.0.2",
+    "dotenv": "^16.4.5",
+    "node-appwrite": "^14.1.0"
+  }
+}
