@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["appwrite", "error", "tracking", "logging"],
+  "author": "Gurjeet Singh Virdee",
+  "license": "MIT",
+  "description": "Appwrite Error Tracker is a robust error logging solution designed for seamless integration with Appwrite projects. This TypeScript-based package leverages Appwrite's functions to capture and log errors in real-time, providing detailed reports and ensuring high application reliability.",
   "devDependencies": {
     "typescript": "^5.6.3"
   },
